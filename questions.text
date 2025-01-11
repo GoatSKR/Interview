@@ -1,0 +1,82 @@
+Topic: Concurrency and Goroutines
+Implement a worker pool:
+Write a program that creates a pool of worker goroutines to process tasks from a channel and send results to another channel.
+Discuss error handling and graceful shutdown.
+
+Dining Philosophers Problem:
+Implement the Dining Philosophers problem using goroutines and channels.
+Rate Limiter:
+
+Design and implement a rate limiter for an API using Go’s time and goroutines.
+Deadlock Detection:
+Write a program that demonstrates a deadlock and then modify it to prevent the deadlock.
+
+Topic: Data Structures and Algorithms
+LRU Cache:
+
+Implement an LRU (Least Recently Used) cache using Go.
+Trie Data Structure:
+
+Implement a Trie for storing and searching strings.
+Concurrent Safe Data Structures:
+
+Design a thread-safe map or queue using sync.Mutex or sync.RWMutex.
+Topological Sorting:
+
+Write a program to perform a topological sort of a directed acyclic graph (DAG).
+Distributed MapReduce:
+
+Implement a basic MapReduce framework to count word occurrences in multiple files.
+
+Topic: System Design
+Message Queue:
+
+Build a simple message queue with publishers and subscribers using Go channels.
+Key-Value Store:
+
+Design and implement an in-memory key-value store with TTL (Time-To-Live) support.
+File Upload Service:
+
+Design a file upload API that supports concurrency, error handling, and file chunking.
+Load Balancer:
+
+Implement a round-robin or least-connections load balancer in Go.
+
+Topic: Networking and APIs
+HTTP Proxy:
+
+Build an HTTP proxy server that can log requests and forward them to a target server.
+WebSocket Chat Server:
+
+Create a WebSocket-based chat server supporting one-to-one and group messaging.
+OAuth 2.0 Flow:
+
+Implement a basic OAuth 2.0 flow for API authentication and authorization.
+
+Topic: Optimization and Debugging
+Optimize a Slow Program:
+
+Given a slow Go program (with suboptimal code or memory leaks), debug and optimize it.
+Profiling:
+
+Use Go’s pprof and trace to analyze and improve a program’s performance.
+Memory Management:
+
+Implement a custom memory allocator to manage a fixed block of memory.
+
+Topic: Miscellaneous
+Blockchain Basics:
+
+Implement a simplified blockchain with transaction validation.
+Custom JSON Marshalling:
+
+Write a struct with custom JSON marshalling/unmarshalling logic to handle complex input/output formats.
+Plugin System:
+
+Build a plugin system where modules can be dynamically loaded and executed.
+Error Propagation:
+
+Design a robust error-handling mechanism across a multi-layered application.
+Event Dispatcher:
+
+Implement an event dispatcher that allows registering and invoking event listeners dynamically.
