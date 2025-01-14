@@ -5,6 +5,7 @@ Discuss error handling and graceful shutdown.
 
 Dining Philosophers Problem:
 Implement the Dining Philosophers problem using goroutines and channels.
+
 Rate Limiter:
 
 Design and implement a rate limiter for an API using Go’s time and goroutines.
